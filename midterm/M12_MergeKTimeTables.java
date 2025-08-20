@@ -57,10 +57,3 @@ public class M12_MergeKTimeTables {
         return result;
     }
 }
-
-/*
- * Time Complexity: O(N log K)
- * 說明:
- * N = 總時刻數，K = 清單數
- * 每個元素會進出堆一次，每次操作 O(log K)，總計 O(N log K)。
- */
